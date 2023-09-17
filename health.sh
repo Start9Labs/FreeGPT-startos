@@ -48,4 +48,7 @@ else
     sed -i "s#Message Serge#Message#" /usr/src/app/api/static/_app/immutable/nodes/3.*.js
     p_remove="Below is an instruction that describes a task. Write a response that appropriately completes the request."
     sed -i "s#$p_remove##" /usr/src/app/api/static/_app/immutable/nodes/2.*.js
+    sed -i "s#7B requires about 4.5GB of free RAM, 13B requires about 12GB free, 30B requires##" /usr/src/app/api/static/_app/immutable/nodes/4.*.js
+    sed -i "s#about 20GB free##" /usr/src/app/api/static/_app/immutable/nodes/4.*.js
+
 fi
