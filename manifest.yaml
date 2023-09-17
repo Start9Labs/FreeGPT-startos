@@ -1,0 +1,100 @@
+id: freegpt 
+title: "FreeGPT"
+version: 0.4.0
+release-notes: "Initial release of FreeGPT for StartOS"
+license: MIT
+wrapper-repo: "https://github.com/Start9Labs/freegpt-startos"
+upstream-repo: "https://github.com/serge-chat/serge"
+support-site: "https://github.com/serge-chat/serge/issues"
+marketing-site: "https://serge.chat/"
+build: ["make"]
+description:
+  short: FreeGPT - Self-hosted personal assistant
+  long: |
+    Your self-hosted personal assistant.
+    No remote API, no data collection, no ads.
+assets:
+  license: LICENSE
+  icon: icon.png
+  instructions: instructions.md
+main:
+  type: docker
+  image: main
+  entrypoint: "docker_entrypoint.sh"
+  args: []
+  mounts:
+    main: /data
+    weights: /usr/src/app/weights
+    datadb: /data/db
+  gpu-acceleration: true
+health-checks:
+  web-ui:
+    name: Web UI
+    success-message: FreeGPT UI is ready to be visited in your browser.
+    type: docker
+    image: main
+    entrypoint: health.sh
+    args: []
+    io-format: json
+    inject: true
+config: ~
+properties: ~
+volumes:
+  main:
+    type: data
+  weights:
+    type: data
+  datadb:
+    type: data
+interfaces:
+  main:
+    name: User Interface
+    description: A FreeGPT user interface.
+    tor-config:
+      port-mapping:
+        80: "8008"
+    lan-config:
+      443:
+        ssl: true
+        internal: 8008
+    ui: true
+    protocols:
+      - tcp
+      - http
+dependencies: {}
+backup:
+  create:
+    type: docker
+    image: compat
+    system: true 
+    entrypoint: compat 
+    args:
+      - duplicity
+      - create
+      - /mnt/backup
+      - /data
+    mounts:
+      BACKUP: "/mnt/backup" 
+      main: "/data"
+  restore:
+    type: docker
+    image: compat
+    system: true
+    entrypoint: compat
+    args:
+      - duplicity
+      - restore
+      - /mnt/backup
+      - /data
+    mounts:
+      BACKUP: "/mnt/backup"
+      main: "/data"
+migrations:
+  from:
+    "*":
+      type: script
+      args: ["from"]
+  to:
+    "*":
+      type: script
+      args: ["to"]
