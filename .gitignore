@@ -1,0 +1,4 @@
+*.s9pk
+scripts/
+.DS_Store
+.vscode/
