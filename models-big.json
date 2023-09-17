@@ -112,11 +112,11 @@
         ]
     },    
     {
-        "name": "Dolphin",
+        "name": "Dolphin Llama2 7B",
         "models": [
             {
-                "name": "Dolphin-13B",
-                "repo": "TheBloke/Dolphin-Llama-13B-GGML",
+                "name": "Dolphin-Llama2-7B",
+                "repo": "TheBloke/Dolphin-Llama2-7B-GGML",
                 "files": [
                     {
                         "name": "q4_1",
