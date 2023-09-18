@@ -1,0 +1,3 @@
+[submodule "freegpt"]
+	path = freegpt
+	url = https://github.com/Start9Labs/free-gpt/
