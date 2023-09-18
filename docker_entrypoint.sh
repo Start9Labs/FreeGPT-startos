@@ -12,6 +12,8 @@ else
     export PUBLIC_MODELS_URL="https://raw.githubusercontent.com/Start9Labs/freegpt-startos/weights/models-small.json"
 fi
 
+export PUBLIC_CPUS=$(nproc)
+
 function initialize-models () {
     while ! curl -sf http://localhost:8008/api/ping/ > /dev/null 2>&1; do
         sleep 5
