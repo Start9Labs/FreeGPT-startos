@@ -9,10 +9,9 @@ support-site: "https://github.com/serge-chat/serge/issues"
 marketing-site: "https://serge.chat/"
 build: ["make"]
 description:
-  short: FreeGPT - Self-hosted personal assistant
+  short: Private GPT chatbot
   long: |
-    Your self-hosted personal assistant.
-    No remote API, no data collection, no ads.
+    A private, self-hosted GPT chatbot and personal assistant. No remote API, no bias or censorship, no data collection, no ads.
 assets:
   license: LICENSE
   icon: icon.png
@@ -46,10 +45,17 @@ volumes:
     type: data
   datadb:
     type: data
+alerts:
+  install: |
+    READ CAREFULLY! FreeGPT is in early stage development! Minimal functionality and some bugs
+    are expected. FreeGPT can use significant system resources, so beware when running it alongside
+    other services that use significant system resources, such as Bitcoin or electrs. Avoid clicking
+    quickly. If clicking a button appears to have no effect, wait! It is likely things are just
+    taking time to process.
 interfaces:
   main:
-    name: User Interface
-    description: A FreeGPT user interface.
+    name: Web UI
+    description: FreeGPT browser user interface.
     tor-config:
       port-mapping:
         80: "8008"

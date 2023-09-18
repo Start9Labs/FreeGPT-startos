@@ -1,25 +1,15 @@
-## Instructions to Run FreeGPT - Your Self-Hosted Personal Assistant
+# Using FreeGPT on StartOS
 
-1. **Download a Language Model:**
-   - In FreeGPT interface click on "DOWNLOAD MODELS."
-   - Choose a language model from the list provided. Start with a smaller model (e.g., 3B) if you have limited RAM and disk space.
+## Important Warning!
+   - FreeGPT is in *early stage* development
+   - Minimal functionality and some bugs are expected
+   - FreeGPT can use significant system resources. Beware when running it alongside other services that use significant system resources, such as Bitcoin or electrs.
+   - Avoid clicking quickly. If clicking a button appears to have no effect, *wait*! It is likely things are just taking time to process.
 
-2. **Ensure Sufficient Resources:**
-   - Make sure your system has enough disk space and available RAM to run the selected language model.
-   - For the 7B model, you'll need 8GB+ of free RAM.
-   - The 13B model requires 16GB+ of free RAM.
+## Download a Large Language Model (LLM)
+   - In the FreeGPT interface click on "DOWNLOAD MODELS"
+   - Choose a language model from the list provided. Models are automatically filtered based on the available RAM of your server. Larger models should provide better responses, but they will be slower.
 
-3. **Start the Chat:**
-   - After downloading at least one language model, click on "START A NEW CHAT."
-
-4. **Interact with FreeGPT:**
-   - You can now start interacting with FreeGPT, your self-hosted personal assistant, without the need for any remote API, data collection, or ads.
-
-**Note:**
-   - This software is in VERY EARLY DEVELOPMENT.
-   - Expect potential bugs and limited functionality.
-   - Feedback and contributions are welcome to improve the experience.
-
-If you encounter any issues or want to contribute, please visit the [official Serge GitHub repository](https://github.com/serge-chat/serge) that FreeGPT is based on.
-
-Enjoy using your FreeGPT personal assistant!
+## Start a Chat
+   - After downloading at least one language model, click "NEW CHAT"
+   - Optionally adjust settings for this new chat. We recommend using the default unless you really know what you are doing.
