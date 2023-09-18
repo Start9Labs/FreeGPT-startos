@@ -14,7 +14,7 @@ fi
 
 export PUBLIC_CPUS=$(nproc)
 
-function initialize-models () {
+initialize_models () {
     while ! curl -sf http://localhost:8008/api/ping/ > /dev/null 2>&1; do
         sleep 5
     done
@@ -24,6 +24,5 @@ function initialize-models () {
          -F "url=$PUBLIC_MODELS_URL"
 }
 
-initialize-models &
-
+initialize_models &
 exec /usr/src/app/deploy.sh
