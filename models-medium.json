@@ -1,53 +1,5 @@
 [
     {
-        "name": "Marx V2 (3B)",
-        "models": [
-            {
-                "name": "Marx-3B-V2",
-                "repo": "NikolayKozloff/Marx-3B-V2",
-                "files": [
-                    {
-                        "name": "q4_1",
-                        "filename": "Marx-3B-V2-Q4_1-GGML.bin",
-                        "disk_space": 2000000000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Tiny Stories (1B)",
-        "models": [
-            {
-                "name": "TinyStories-1M",
-                "repo": "s3nh/TinyLLama-v0-GGML",
-                "files": [
-                    {
-                        "name": "q8_0",
-                        "filename": "TinyLLama-v0.ggmlv3.q8_0.bin",
-                        "disk_space": 5370000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Puma (3B)",
-        "models": [
-            {
-                "name": "Puma-3B",
-                "repo": "TheBloke/Puma-3b-GGML",
-                "files": [
-                    {
-                        "name": "q4_0",
-                        "filename": "puma-3b.ggmlv3.q4_0.bin",
-                        "disk_space": 1930000000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Nous Hermes (7B)",
         "models": [
             {
@@ -106,6 +58,54 @@
                         "name": "Q4_K_S",
                         "filename": "codellama-7b-instruct.ggmlv3.Q4_K_S.bin",
                         "disk_space": 3980000000.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Marx V2 (3B)",
+        "models": [
+            {
+                "name": "Marx-3B-V2",
+                "repo": "NikolayKozloff/Marx-3B-V2",
+                "files": [
+                    {
+                        "name": "q4_1",
+                        "filename": "Marx-3B-V2-Q4_1-GGML.bin",
+                        "disk_space": 2000000000.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Griffin 3B",
+        "models": [
+            {
+                "name": "Griffin-3B",
+                "repo": "TheBloke/Griffin-3B-GGML",
+                "files": [
+                    {
+                        "name": "q4_0",
+                        "filename": "griffin-3b.ggmlv3.q4_0.bin",
+                        "disk_space": 1930000000.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tiny Stories (1B)",
+        "models": [
+            {
+                "name": "TinyStories-1M",
+                "repo": "s3nh/TinyLLama-v0-GGML",
+                "files": [
+                    {
+                        "name": "q8_0",
+                        "filename": "TinyLLama-v0.ggmlv3.q8_0.bin",
+                        "disk_space": 5370000.0
                     }
                 ]
             }
