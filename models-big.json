@@ -1,5 +1,21 @@
 [
     {
+        "name": "Nous Hermes (7B)",
+        "models": [
+            {
+                "name": "Nous-Hermes-Llama-2-7B",
+                "repo": "TheBloke/Nous-Hermes-Llama-2-7B-GGML",
+                "files": [
+                    {
+                        "name": "q4_0",
+                        "filename": "nous-hermes-llama-2-7b.ggmlv3.q4_0.bin",
+                        "disk_space": 3790000000.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Tiny Stories (1B)",
         "models": [
             {
@@ -42,22 +58,6 @@
                         "name": "q4_0",
                         "filename": "puma-3b.ggmlv3.q4_0.bin",
                         "disk_space": 1930000000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Nous Hermes (7B)",
-        "models": [
-            {
-                "name": "Nous-Hermes-Llama-2-7B",
-                "repo": "TheBloke/Nous-Hermes-Llama-2-7B-GGML",
-                "files": [
-                    {
-                        "name": "q4_0",
-                        "filename": "nous-hermes-llama-2-7b.ggmlv3.q4_0.bin",
-                        "disk_space": 3790000000.0
                     }
                 ]
             }
