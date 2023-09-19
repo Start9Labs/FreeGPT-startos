@@ -96,22 +96,6 @@
         ]
     },
     {
-        "name": "MPT 7B Storywriter",
-        "models": [
-            {
-                "name": "MPT-7B-Storywriter",
-                "repo": "TheBloke/MPT-7B-Storywriter-GGML",
-                "files": [
-                    {
-                        "name": "q4_0",
-                        "filename": "mpt-7b-storywriter.ggmlv3.q4_0.bin",
-                        "disk_space": 3740000000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Nous Hermes 7B",
         "models": [
             {
