@@ -96,16 +96,16 @@
         ]
     },
     {
-        "name": "CodeCherryPop (7B)",
+        "name": "CodeLlama 7B Instruct",
         "models": [
             {
-                "name": "Llama2-7B-Chat-CodeCherryPop",
-                "repo": "TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML",
+                "name": "CodeLlama-7B-Instruct",
+                "repo": "TheBloke/CodeLlama-7B-Instruct-GGML",
                 "files": [
                     {
-                        "name": "q2_K",
-                        "filename": "llama-2-7b-chat-codeCherryPop.ggmlv3.q2_K.bin",
-                        "disk_space": 2870000000.0
+                        "name": "Q4_K_S",
+                        "filename": "codellama-7b-instruct.ggmlv3.Q4_K_S.bin",
+                        "disk_space": 3980000000.0
                     }
                 ]
             }
