@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tiny Stories",
+        "name": "Tiny Stories 1M",
         "models": [
             {
                 "name": "TinyStories-1M",
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "name": "Griffin",
+        "name": "Griffin 3B",
         "models": [
             {
                 "name": "Griffin-3B",
@@ -32,7 +32,7 @@
         ]
     },
     {
-        "name": "Puma",
+        "name": "Puma 3B",
         "models": [
             {
                 "name": "Puma-3B",
@@ -64,23 +64,23 @@
         ]
     },
     {
-        "name": "Luna AI Llama2 Uncensored",
+        "name": "Luna AI Llama2 Uncensored 7B",
         "models": [
             {
-                "name": "Luna-AI-Llama2-Uncensored",
+                "name": "Luna-AI-Llama2-Uncensored-7B",
                 "repo": "TheBloke/Luna-AI-Llama2-Uncensored-GGML",
                 "files": [
                     {
-                        "name": "q2_K",
-                        "filename": "luna-ai-llama2-uncensored.ggmlv3.q2_K.bin",
-                        "disk_space": 2860000000.0
+                        "name": "q4_K_S",
+                        "filename": "luna-ai-llama2-uncensored.ggmlv3.q4_K_S.bin",
+                        "disk_space": 3830000000.0
                     }
                 ]
             }
         ]
     },
     {
-        "name": "Llama 2 Chat CodeCherryPop",
+        "name": "Llama 2 Chat CodeCherryPop 7B",
         "models": [
             {
                 "name": "Llama2-7B-Chat-CodeCherryPop",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "name": "Nous Hermes",
+        "name": "Nous Hermes 7B",
         "models": [
             {
                 "name": "Nous-Hermes-Llama-2-7B",
@@ -160,7 +160,7 @@
         ]
     },
     {
-        "name": "MythoMax",
+        "name": "MythoMax 13B",
         "models": [
             {
                 "name": "MythoMax-L2-13B",
@@ -211,7 +211,7 @@
         "name": "Vicuna 13B v1.5 16K",
         "models": [
             {
-                "name": "vicuna-13B-v1.5-16k",
+                "name": "Vicuna-13B-v1.5-16k",
                 "repo": "TheBloke/vicuna-13B-v1.5-16K-GGML",
                 "files": [
                     {
