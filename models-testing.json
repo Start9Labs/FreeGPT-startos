@@ -211,8 +211,8 @@
         "name": "StableBeluga 13B",
         "models": [
             {
-                "name": "StableBeluga-13B-GGML",
-                "repo": "TheBloke/StableBeluga-13B",
+                "name": "StableBeluga-13B",
+                "repo": "TheBloke/StableBeluga-13B-GGML",
                 "files": [
                     {
                         "name": "q4_K_S",
