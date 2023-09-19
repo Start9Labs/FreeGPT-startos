@@ -112,6 +112,22 @@
         ]
     },
     {
+        "name": "Samantha 1.1 Llama 7B",
+        "models": [
+            {
+                "name": "samantha-1.1-llama-7b-GGML",
+                "repo": "TheBloke/samantha-1.1-llama-7B-GGML",
+                "files": [
+                    {
+                        "name": "q4_K_S",
+                        "filename": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
+                        "disk_space": 3790000000.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "CodeLlama 7B Instruct",
         "models": [
             {
