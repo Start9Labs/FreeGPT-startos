@@ -1,6 +1,22 @@
 [
     {
-        "name": "Marx 3B V2",
+        "name": "Tiny Stories (1B)",
+        "models": [
+            {
+                "name": "TinyStories-1M",
+                "repo": "s3nh/TinyLLama-v0-GGML",
+                "files": [
+                    {
+                        "name": "q8_0",
+                        "filename": "TinyLLama-v0.ggmlv3.q8_0.bin",
+                        "disk_space": 5370000.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Marx V2 (3B)",
         "models": [
             {
                 "name": "Marx-3B-V2",
@@ -16,23 +32,7 @@
         ]
     },
     {
-        "name": "Griffin",
-        "models": [
-            {
-                "name": "Griffin-3B",
-                "repo": "TheBloke/Griffin-3B-GGML",
-                "files": [
-                    {
-                        "name": "q4_0",
-                        "filename": "griffin-3b.ggmlv3.q4_0.bin",
-                        "disk_space": 1930000000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Puma",
+        "name": "Puma (3B)",
         "models": [
             {
                 "name": "Puma-3B",
@@ -48,39 +48,7 @@
         ]
     },
     {
-        "name": "Luna AI Llama2 Uncensored",
-        "models": [
-            {
-                "name": "Luna-AI-Llama2-Uncensored",
-                "repo": "TheBloke/Luna-AI-Llama2-Uncensored-GGML",
-                "files": [
-                    {
-                        "name": "q2_K",
-                        "filename": "luna-ai-llama2-uncensored.ggmlv3.q2_K.bin",
-                        "disk_space": 2860000000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Llama 2 Chat CodeCherryPop",
-        "models": [
-            {
-                "name": "Llama2-7B-Chat-CodeCherryPop",
-                "repo": "TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML",
-                "files": [
-                    {
-                        "name": "q2_K",
-                        "filename": "llama-2-7b-chat-codeCherryPop.ggmlv3.q2_K.bin",
-                        "disk_space": 2870000000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Nous Hermes",
+        "name": "Nous Hermes (7B)",
         "models": [
             {
                 "name": "Nous-Hermes-Llama-2-7B",
@@ -96,23 +64,7 @@
         ]
     },
     {
-        "name": "MythoMax",
-        "models": [
-            {
-                "name": "MythoMax-L2-13B",
-                "repo": "TheBloke/MythoMax-L2-13B-GGML",
-                "files": [
-                    {
-                        "name": "q2_K",
-                        "filename": "mythomax-l2-13b.ggmlv3.q2_K.bin",
-                        "disk_space": 5510000000.0
-                    }
-                ]
-            }
-        ]
-    },    
-    {
-        "name": "Dolphin Llama2 7B",
+        "name": "Dolphin (7B)",
         "models": [
             {
                 "name": "Dolphin-Llama2-7B",
@@ -128,19 +80,35 @@
         ]
     },
     {
-        "name": "LlongOrca 13B 16K",
+        "name": "Samantha 1.1 (7B)",
         "models": [
             {
-                "name": "LlongOrca-13B-16K",
-                "repo": "TheBloke/LlongOrca-13B-16K-GGML",
+                "name": "Samantha-1.1-llama-7B",
+                "repo": "TheBloke/samantha-1.1-llama-7B-GGML",
                 "files": [
                     {
-                        "name": "q2_K",
-                        "filename": "llongorca-13b-16k.ggmlv3.q2_K.bin",
-                        "disk_space": 5740000000.0
+                        "name": "q4_K_S",
+                        "filename": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
+                        "disk_space": 3790000000.0
                     }
                 ]
             }
         ]
-    }    
+    },
+    {
+        "name": "CodeCherryPop (Coding) (7B)",
+        "models": [
+            {
+                "name": "Llama2-7B-Chat-CodeCherryPop",
+                "repo": "TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML",
+                "files": [
+                    {
+                        "name": "q2_K",
+                        "filename": "llama-2-7b-chat-codeCherryPop.ggmlv3.q2_K.bin",
+                        "disk_space": 2870000000.0
+                    }
+                ]
+            }
+        ]
+    }
 ]
