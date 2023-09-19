@@ -34,7 +34,7 @@ initialize_models () {
 
 initialize_models &
 
-/usr/src/app/deploy.sh
+/usr/src/app/deploy.sh &
 deploy_process=$!
 
 # Set up a signal trap and wait for processes to finish
