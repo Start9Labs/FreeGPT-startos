@@ -1,5 +1,6 @@
 *.s9pk
 scripts/
+freegpt/
 docker-images/
 .DS_Store
 .vscode/
