@@ -10,7 +10,7 @@ _term() {
 
 printf "\n\nStarting FreeGPT\n\n"
 
-total_memory_gb=$(awk '/MemAvailable/{print int($2 / 1024 / 1024)}' /proc/meminfo)
+total_memory_gb=$(awk '/MemTotal/{print int($2 / 1024 / 1024)}' /proc/meminfo)
 
 if [ "$total_memory_gb" -gt 16 ]; then
     export MODELS_URL="https://raw.githubusercontent.com/Start9Labs/freegpt-startos/weights/models-big.json"
