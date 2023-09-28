@@ -4,6 +4,7 @@ version: 0.4.0.1
 release-notes: |
   * Pre-prompt is now empty by default.
   * Memory detection issue has been fixed.
+  * Better CPU detection for llama build.
 license: MIT
 wrapper-repo: "https://github.com/Start9Labs/freegpt-startos"
 upstream-repo: "https://github.com/serge-chat/serge"
