@@ -53,4 +53,6 @@ To contribute or add new models to this repository, please make sure they are in
    - `"filename"`: Actual filename of the model file hosted on Hugging Face.
    - `"disk_space"`: Size of the model file in bytes.
 
+For more detailed instructions on how to add a custom model for testing, check out our comprehensive guide: [Add a Custom Model to FreeGPT for Testing](./HOWTO.md).
+
 We appreciate your contributions!
