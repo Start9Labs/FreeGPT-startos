@@ -1,6 +1,6 @@
 # How to add a Custom Model to FreeGPT for Testing
 
-In this guide, you'll learn how to add a custom model to FreeGPT for testing purposes. FreeGPT is a versatile tool for running Language Large Language Models (LLMs), and by following these steps, you can expand its capabilities with your own models. Please note that only GGML that work with llama-cpp-python are supported in FreeGPT.
+In this guide, you'll learn how to add a custom model to FreeGPT for testing purposes. FreeGPT is a versatile tool for running Large Language Models (LLMs), and by following these steps, you can expand its capabilities with your own models. Please note that only GGML that work with llama-cpp-python are supported in FreeGPT.
 
 ## Testing a Model
 
