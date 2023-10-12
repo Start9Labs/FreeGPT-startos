@@ -17,7 +17,7 @@ In this guide, you'll learn how to add a custom model to FreeGPT for testing pur
 ## Downloading the Model
 
 - Open your terminal and SSH into your Start9 server where you have FreeGPT installed and running.
-- Enter the FreeGPT container by executing: `sudo podman exec -it freegpt.embassy bash` and navigate to the 'weights' directory using the `cd weights` command.
+- Enter the FreeGPT container by executing: `sudo docker exec -it freegpt.embassy bash` and navigate to the 'weights' directory using the `cd weights` command.
 - Download the model using `curl -OL` followed by the copied download link. For example:
    ```bash
    curl -OL https://huggingface.co/TheBloke/orca_mini_3B-GGML/resolve/main/orca-mini-3b.ggmlv3.q4_0.bin
