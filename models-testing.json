@@ -68,12 +68,12 @@
         "models": [
             {
                 "name": "Mistral-7B-OpenOrca",
-                "repo": "Open-Orca/Mistral-7B-OpenOrca",
+                "repo": "TheBloke/Mistral-7B-OpenOrca-GGUF",
                 "files": [
                     {
-                        "name": "q4_K_S",
-                        "filename": "pytorch_model-00002-of-00002.bin",
-                        "disk_space": 4540000000.0
+                        "name": "q2_k",
+                        "filename": "mistral-7b-openorca.Q2_K.gguf",
+                        "disk_space": 3080000000.0
                     }
                 ]
             }
