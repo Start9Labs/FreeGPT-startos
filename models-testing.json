@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tiny Stories 1M",
+        "name": "Tiny Stories (1M)",
         "models": [
             {
                 "name": "TinyStories-1M",
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "name": "Griffin 3B",
+        "name": "Griffin (3B)",
         "models": [
             {
                 "name": "Griffin-3B",
@@ -32,7 +32,7 @@
         ]
     },
     {
-        "name": "Puma 3B",
+        "name": "Puma (3B)",
         "models": [
             {
                 "name": "Puma-3B",
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "name": "Marx 3B V2",
+        "name": "Marx V2 (3B)",
         "models": [
             {
                 "name": "Marx-3B-V2",
@@ -73,14 +73,14 @@
                     {
                         "name": "q4_K_S",
                         "filename": "pytorch_model-00002-of-00002.bin",
-                        "disk_space": 3830000000.0
+                        "disk_space": 4540000000.0
                     }
                 ]
             }
         ]
     },
     {
-        "name": "Luna AI Llama2 Uncensored 7B",
+        "name": "Luna AI Llama2 Uncensored (7B)",
         "models": [
             {
                 "name": "Luna-AI-Llama2-Uncensored-7B",
@@ -96,7 +96,7 @@
         ]
     },
     {
-        "name": "Llama 2 Chat CodeCherryPop 7B",
+        "name": "Llama 2 Chat CodeCherryPop (7B)",
         "models": [
             {
                 "name": "Llama2-7B-Chat-CodeCherryPop",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "name": "Nous Hermes 7B",
+        "name": "Nous Hermes (7B)",
         "models": [
             {
                 "name": "Nous-Hermes-Llama-2-7B",
@@ -128,7 +128,7 @@
         ]
     },
     {
-        "name": "Samantha 1.1 Llama 7B",
+        "name": "Samantha 1.1 Llama (7B)",
         "models": [
             {
                 "name": "Samantha-1.1-llama-7B",
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "name": "CodeLlama 7B Instruct",
+        "name": "CodeLlama Instruct (7B)",
         "models": [
             {
                 "name": "CodeLlama-7B-Instruct",
@@ -160,7 +160,7 @@
         ]
     },
     {
-        "name": "MythoMax 13B",
+        "name": "MythoMax (13B)",
         "models": [
             {
                 "name": "MythoMax-L2-13B",
@@ -176,7 +176,7 @@
         ]
     },
     {
-        "name": "Dolphin Llama2 7B",
+        "name": "Dolphin Llama2 (7B)",
         "models": [
             {
                 "name": "Dolphin-Llama2-7B",
@@ -192,7 +192,7 @@
         ]
     },
     {
-        "name": "LlongOrca 13B 16K",
+        "name": "LlongOrca 16K (13B)",
         "models": [
             {
                 "name": "LlongOrca-13B-16K",
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "name": "Vicuna 13B v1.5 16K",
+        "name": "Vicuna v1.5 16K (13B)",
         "models": [
             {
                 "name": "Vicuna-13B-v1.5-16k",
@@ -224,7 +224,7 @@
         ]
     },
     {
-        "name": "StableBeluga 13B",
+        "name": "StableBeluga (13B)",
         "models": [
             {
                 "name": "StableBeluga-13B",
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "name": "OpenOrca Platypus2 13B",
+        "name": "OpenOrca Platypus2 (13B)",
         "models": [
             {
                 "name": "OpenOrca-Platypus2-13B",
@@ -256,7 +256,7 @@
         ]
     },
     {
-        "name": "Nous Hermes Llama2 13B",
+        "name": "Nous Hermes Llama2 (13B)",
         "models": [
             {
                 "name": "Nous-Hermes-Llama2-13B",
