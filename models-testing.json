@@ -64,6 +64,22 @@
         ]
     },
     {
+        "name": "Mistral (7B)",
+        "models": [
+            {
+                "name": "Mistral-7B-OpenOrca",
+                "repo": "Open-Orca/Mistral-7B-OpenOrca",
+                "files": [
+                    {
+                        "name": "q4_K_S",
+                        "filename": "pytorch_model-00002-of-00002.bin",
+                        "disk_space": 3830000000.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Luna AI Llama2 Uncensored 7B",
         "models": [
             {
