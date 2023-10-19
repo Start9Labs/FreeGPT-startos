@@ -64,22 +64,6 @@
         ]
     },
     {
-        "name": "Mistral (7B)",
-        "models": [
-            {
-                "name": "Mistral-7B-OpenOrca",
-                "repo": "TheBloke/Mistral-7B-OpenOrca-GGUF",
-                "files": [
-                    {
-                        "name": "q2_k",
-                        "filename": "mistral-7b-openorca.Q2_K.gguf",
-                        "disk_space": 3080000000.0
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Luna AI Llama2 Uncensored (7B)",
         "models": [
             {
